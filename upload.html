@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+			background-color: #F6BB05;
+		}
+		form {
+			text-align: center;
+			margin-right: 150px;
+			margin-top: 100px;
+		}
+		input {
+			width: 300px;
+			padding: 10px 0px;
+			border: 2px solid blue;
+			border-radius: 10px;
+		}
+		.name-video {
+			margin-left: 80px;
+			
+		}
+		button{
+			padding: 10px 20px;
+			border-radius: 6px;
+			outline: none;
+			background-color:cyan;
+			color: black;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+<body>
+	<form class="admin-form">
+		<h1>ADMIN PANEL</h1>
+    <h2>link video</h2> 	
+    <input type="text" class="video-link" placeholder="video-link.."  required="true">
+	<h2>link image for video</h2>
+	<input type="text" class="image-link" placeholder="image-link" required="true">
+	<h2>name video</h2>
+	<input type="text" class="name-video" placeholder="name-video" required="true">
+	<button type="submit">Send</button>
+	</form>
+	<script src="database.js"></script>
+	<script src="admin.js">
+	</script>
+</body>
+</html>
